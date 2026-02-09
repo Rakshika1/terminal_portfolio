@@ -1,0 +1,29 @@
+.typing{
+    font-family: 'Monaco', 'Courier New', monospace;
+    text-align: center;
+    white-space: nowrap;
+    width:100%;
+    overflow: hidden;
+    animation: typing 6s steps(120,end);
+}
+
+@keyframes typing{
+    from{
+        width: 0%;
+    }
+    to{
+        width:100%;
+    }
+}
+.marginx{
+    margin-left: 25em;
+    margin-right: 25em;
+}
+
+.header{
+    color: #f3ebeb;
+     display: grid;
+     place-items: center;
+     font-family: 'Monaco', 'Courier New', monospace;
+   
+   }
